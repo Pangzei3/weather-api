@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.app {
+  width: 350px;
+  height: 70%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  text-align: start;
+  padding: 1rem;
+}
+.user-input {
+  width: 100%;
+}
+
+label, .btn{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#zipcode, #feeling {
+  padding: .3rem;
+  width: 55%
+}
+
+.btn {
+  cursor: pointer;
+  padding: .1rem .3rem;
+}
+
+.result {
+  margin-top: 1.5rem;
+  padding: .3rem;
+  width: 55%;
+  background-color: yellow;
+  border-radius: 0.5rem;
+}
+
+.result div {
+  padding: .2rem;
+  margin: .1rem;
+  width: 100%;
+}
+
+
+/* error-handling */
+.hide {
+  display: none;
+}
